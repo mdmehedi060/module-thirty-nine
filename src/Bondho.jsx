@@ -1,5 +1,6 @@
 import {useEffect, useState } from 'react'
 import './Friends.css'
+import Bainchod from './bainchod';
 export default function Friends() {
   const [friends, setFriends] = useState([]);
   

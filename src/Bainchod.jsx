@@ -1,5 +1,6 @@
 export default function Bainchod({ friend }) {
-  const { name, email } = friend;
+  console.log(friend);
+  const {name, email} = friend;
   return (
     <div className="box">
       <h4>Name:{ name}</h4>
